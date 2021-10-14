@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e0ee01c-72a9-411f-9239-779af72e9075}</ProjectGuid>
-    <RootNamespace>Assignment12</RootNamespace>
+    <ProjectGuid>{6cc05c07-b284-4d25-aaae-1eac97a2874b}</ProjectGuid>
+    <RootNamespace>Assigment14</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment 1.2.c" />
-    <ClCompile Include="Input.c" />
+    <ClCompile Include="Assigment 1.4.c" />
+    <ClCompile Include="Diamond.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Input.h" />
+    <ClInclude Include="Diamond.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
