@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Assignment 1.3.c" />
+    <ClCompile Include="Length.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Length.h" />

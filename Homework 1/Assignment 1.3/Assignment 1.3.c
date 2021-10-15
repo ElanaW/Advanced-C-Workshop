@@ -2,21 +2,15 @@
 //
 
 #include <stdio.h>
+#include "Length.h"
 
-//int wordLength(char* word)
-//{
-//	int counter = 0,index;
-//	while (word[index++]!='\0')
-//	{
-//		counter++;
-//	}
-//}
 
-//int main()
-//{
-//	char word[50];
-//	printf_s("Please enter a word\n");
-//	scanf_s(" %c", &word);
-//	printf_s("%d", wordLength(word));
-//
-//}
+
+int main()
+{
+	char word[50];
+	printf("Please enter a word\n");
+	scanf_s(" %c", &word);
+	printf_s("%d", WordLength(word));
+
+}
