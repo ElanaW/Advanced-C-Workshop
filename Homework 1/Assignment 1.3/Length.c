@@ -1,9 +1,10 @@
 #include "Length.h"
 
-int WordLength(char* word)
+int WordLength(const char* word)
 {
-	int counter = 0,index=0;
-	while (word[index++]!='\0')
+	int counter = 0;
+
+	while ((*word++)!='\0')
 	{
 		counter++;
 	}

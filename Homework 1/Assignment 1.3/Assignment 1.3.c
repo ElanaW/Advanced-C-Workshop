@@ -11,6 +11,6 @@ int main()
 	char word[50];
 	printf("Please enter a word\n");
 	scanf_s(" %c", &word);
-	printf_s("%d", WordLength(word));
+	printf_s("The length of the word is %d", WordLength(word));
 
 }
