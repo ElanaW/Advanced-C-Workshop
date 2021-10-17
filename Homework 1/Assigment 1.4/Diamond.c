@@ -1,6 +1,6 @@
 #include "Diamond.h"
 
-/**
+
 
 void PrintTop(int input)
 {
