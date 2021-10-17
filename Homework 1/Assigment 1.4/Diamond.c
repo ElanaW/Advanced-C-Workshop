@@ -1,5 +1,7 @@
 #include "Diamond.h"
 
+/**
+
 void PrintTop(int input)
 {
 	int stars = 1, spaces = input / 2, rows = input / 2;

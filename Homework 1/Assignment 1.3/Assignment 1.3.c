@@ -4,12 +4,14 @@
 //Elana Weiss, 341390961
 
 #include <stdio.h>
+#pragma warning(disable : 4996)
+#include <stdio.h>
 #include "Length.h"
 
-
-
+//user enters a word and program prints length of word
 int main()
 {
-	char *word="hello world";
-	printf_s("The length of the word is %d", WordLength(word));
+	char word[50];
+	scanf("%s",&word);
+	printf("The length of the word is %d", WordLength(word));
 }

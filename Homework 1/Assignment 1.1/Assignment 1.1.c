@@ -1,4 +1,5 @@
-// Assignment 1.1.c : This file contains the 'main' function. Program execution begins and ends there.
+// Assignment 1.1.c : This file contains the 'main' function. 
+//Program execution begins and ends there.
 //Elana Weiss, 341390961
 
 #include <stdio.h>

@@ -1,5 +1,6 @@
 #include "Length.h"
 
+
 int WordLength(const char *word)
 {
 	int counter = 0;
