@@ -10,7 +10,7 @@ int main()
 {
 	int input;
 
-	printf_s("Please enter a number\n");
+	printf_s("Please enter an odd number\n");
 	scanf_s("%d", &input);
 
 	//calling function to print top of diamond
