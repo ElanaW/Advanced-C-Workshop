@@ -7,7 +7,7 @@
 
 int main()
 {
-	int array[50] = {0}, size, number;
+	int array[50] = { 0 }, size, number;
 	printf("Please enter size.\n");
 	scanf(" %d", &size);
 
@@ -15,7 +15,7 @@ int main()
 
 	for (int i = 0; i < size; i++)
 	{
-		scanf(" %d\n", &number);
+		scanf(" %d\n",&number);
 		array[i] = number;
 	}
 
