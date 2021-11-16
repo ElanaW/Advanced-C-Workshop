@@ -7,7 +7,7 @@
 int main()
 {
     int array[100] = { 1,2,3,4,5 }, size = 5;
-    
+   
     reverse(array, size);
     print(array, size);
 }
