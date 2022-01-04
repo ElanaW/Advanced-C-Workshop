@@ -6,6 +6,7 @@
 
 //user enters a lower case letter, program prints the capital version of letter
 //program is terminated if user enters 'q' or 'Q'
+
 int main()
 {
      char letter;

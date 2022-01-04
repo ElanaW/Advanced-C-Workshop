@@ -3,7 +3,16 @@
 
 #include <stdio.h>
 
+typedef struct
+{
+	int x;
+	int y;
+
+}Point;
+
 int main()
 {
-   printf("Hello World!\n");
+	printf("%d",sizeof(Point));
+
+
 }
